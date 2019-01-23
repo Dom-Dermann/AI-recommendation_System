@@ -1,13 +1,13 @@
 def estimate_home_value(size_in_sqft, number_of_bedrooms):
 
     # Assume all homes are worth at least $50,000
-    value =
+    value = 50000
 
     # Adjust the value estimate based on the size of the house
-    value =
+    value = value + (size_in_sqft * 92)
 
     # Adjust the value estimate based on the number of bedrooms
-    value =
+    value = value + (number_of_bedrooms * 10000)
 
     return value
 
